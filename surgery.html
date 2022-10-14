@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style/font-awesome.min.css">
     <link rel="stylesheet" href="style/prism-okaidia.css">
     <link rel="stylesheet" href="style/custom.min.css">
+    <link rel="stylesheet" href="style/dedicated.css">
 </head>
-<body class="d-flex flex-column min-vh-100"
-      style="background-image: url('images/bg_surgery.jpg'); background-size: cover">
+<body class="d-flex flex-column min-vh-100">
 <header class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
     <div class="container d-flex align-items-baseline">
         <a href="./index.html" class="navbar-brand">О враче</a>
@@ -51,18 +51,18 @@
     </div>
 </header>
 <main class="container">
-    <h3 class="row display-5 mb-5 p-3">С чем я работаю</h3>
+    <h3 class="row mb-5 p-3">С чем я работаю</h3>
     <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingOne">
+            <h6 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    <span class="h2"> Пластическая хирургия</span>
+                    <span> Пластическая хирургия</span>
                 </button>
-            </h2>
+            </h6>
             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
                  data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body h4 p-5">
+                <div class="accordion-body p-5">
                     Блефаропластика. Ринопластика. Хейлопластика. Фронтопластика. Ментопластика. Хондроларингопластика.
                     Аугментационная маммопластика. Мастопексия и редукционная маммопластика. Маскулинизирующая
                     маммопластика (мастэктомия). Абдоминопластика. Липосакция. Липотрансфер. Интимная пластика у мужчин
@@ -72,30 +72,30 @@
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingTwo">
+            <h6 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    <span class="h2">Урология</span>
+                    <span>Урология</span>
                 </button>
-            </h2>
+            </h6>
             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                  data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body h4 p-5">
+                <div class="accordion-body p-5">
                     Хирургическое лечение варикоцеле, водянки яичка, фимоза и парафимоза. Орхиэктомия. Уретропластика.
                     Трансуретральные резекции предстательной железы, новообразований мочевого пузыря.
                 </div>
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="flush-headingThree">
+            <h6 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    <span class="h2">Гинекология</span>
+                    <span class="h6">Гинекология</span>
                 </button>
-            </h2>
+            </h6>
             <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
                  data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body h4 p-5">
+                <div class="accordion-body p-5">
                     Аднексэктомия. Удаление кист и новообразований яичников. Гистерэктомия. Удаление кисты бартолиновой
                     железы. Пластика стенок влагалища. Гистероскопия, гистерорезектоскопия. Хирургическое лечение
                     стрессового недержания мочи.
@@ -104,9 +104,19 @@
         </div>
     </div>
 </main>
-<footer class="footer mt-auto pt-3 bg-primary">
-    <div class="container d-flex justify-content-evenly">
-        <p class="text-light">Example body text</p>
+<footer class="footer mt-auto py-3 bg-primary">
+    <div class="container my-2 color-primary-white" id="contacts">
+        <h6 class="mb-3 color-primary-white">Контакты:</h6>
+        <div class="row">
+            <div class="my-1">
+                <i class="fa fa-whatsapp me-2" aria-hidden="true"></i>
+                WhatsApp: +7 909 921 80 80
+            </div>
+            <div class="my-1">
+                <i class="fa fa-envelope me-2" aria-hidden="true"></i>
+                E-mail: drveneno@yandex.ru
+            </div>
+        </div>
     </div>
 </footer>
 <script src="script/jquery.min.js"></script>

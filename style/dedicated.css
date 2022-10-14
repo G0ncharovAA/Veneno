@@ -1,0 +1,34 @@
+body {
+    font-family: clarendon-text-pro, serif;
+}
+
+.color-primary-white {
+    color: #FEFBFF;
+}
+
+.button-primary {
+    padding: 8px 16px;
+    border: none;
+    color: #FEFBFF;
+    background:  linear-gradient(to right, #E6A4F8, #9DA1F7);
+    border-radius: 6px;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+
+.button-primary:hover {
+    background: var(--ternary-gradient);
+    transition: all 0.5s;
+}
+
+.button-primary:active {
+    background: var(--secondary-gradient);
+    transition: all 0.5s;
+}
+
+.hero-photo {
+    background: #FEFBFF;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}

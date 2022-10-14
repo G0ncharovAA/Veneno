@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Dr. Вероника Венено</title>
@@ -8,8 +9,10 @@
     <link rel="stylesheet" href="style/font-awesome.min.css">
     <link rel="stylesheet" href="style/prism-okaidia.css">
     <link rel="stylesheet" href="style/custom.min.css">
+    <link rel="stylesheet" href="style/dedicated.css">
 </head>
-<body class="d-flex flex-column min-vh-100" style="background-image: url('images/bg_main.jpg'); background-size: cover">
+
+<body class="d-flex flex-column min-vh-100">
 <header class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
     <div class="container d-flex align-items-baseline">
         <a href="./index.html" class="navbar-brand">О враче</a>
@@ -32,13 +35,13 @@
                     <a class="nav-link" href="#">Статьи</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
+                    <a class="nav-link" href="#contacts">Контакты</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-md-auto">
                 <li class="nav-item">
-                    <a target="_blank" rel="noopener" class="nav-link" href="https://www.instagram.com/dr.vveneno/"><i
-                            class="fa fa-instagram"></i>Инстаграм</a>
+                    <a target="_blank" rel="noopener" class="nav-link"
+                       href="https://www.instagram.com/dr.vveneno/"><i class="fa fa-instagram"></i>Инстаграм</a>
                 </li>
                 <li class="nav-item">
                     <a target="_blank" rel="noopener" class="nav-link" href="https://twitter.com/bootswatch"><i
@@ -51,37 +54,44 @@
 <main class="container">
     <section class="row">
         <div class="col-md-8">
-            <h5 class="display-5 my-4 text-dark">Вероника Венено</h5>
-            <p class="my-2 text-dark display-6">Пластический хирург, общий хирург, уролог, гинеколог.
+            <h5 class="my-4">Вероника Венено</h5>
+            <p class="my-2">Пластический хирург, общий хирург, уролог, гинеколог.
                 Провожу операции в Москве, консультирую онлайн и в Москве.</p>
-            <p class="my-2 text-dark display-6">Выполняю пластические, урологические и гинекологические операции.
+            <p class="my-2">Выполняю пластические, урологические и гинекологические операции.
             </p>
         </div>
     </section>
     <section class="row mt-5">
         <div class="col-md-6 mt-5">
-            <h6 class="text-dark display-5">Опыт</h6>
+            <h6>Опыт</h6>
             <ul>
-                <li class="text-dark display-6">Опыт работы в медицине более 15 лет</li>
-                <li class="text-dark display-6">В процессе стажировки и работы практические навыки постоянно
+                <li>Опыт работы в медицине более 15 лет</li>
+                <li>В процессе стажировки и работы практические навыки постоянно
                     совершенствуются и пополняются.
                 </li>
             </ul>
-            <h6 class="text-dark display-5">Сотрудничество</h6>
-            <p class="text-dark display-6">Сотрудничаю со смежными специалистами.
+            <h6>Сотрудничество</h6>
+            <p>Сотрудничаю со смежными специалистами.
             </p>
         </div>
         <div class="col-md-6 d-flex align-items-end">
-            <img src="images/veronika.png"
-                 alt="Veronika"
-                 class="img-fluid rounded">
+            <img src="images/veronika.png" alt="Veronika" class="hero-photo">
         </div>
     </section>
-
 </main>
-<footer class="footer mt-auto pt-3 bg-primary">
-    <div class="container d-flex justify-content-evenly">
-        <p class="text-light">Example body text</p>
+<footer class="footer mt-auto py-3 bg-primary">
+    <div class="container my-2 color-primary-white" id="contacts">
+        <h6 class="mb-3 color-primary-white">Контакты:</h6>
+        <div class="row">
+            <div class="my-1">
+                <i class="fa fa-whatsapp me-2" aria-hidden="true"></i>
+                WhatsApp: +7 909 921 80 80
+            </div>
+            <div class="my-1">
+                <i class="fa fa-envelope me-2" aria-hidden="true"></i>
+                E-mail: drveneno@yandex.ru
+            </div>
+        </div>
     </div>
 </footer>
 <script src="script/jquery.min.js"></script>
@@ -89,4 +99,5 @@
 <script src="script/prism.js" data-manual></script>
 <script src="script/custom.js"></script>
 </body>
+
 </html>
