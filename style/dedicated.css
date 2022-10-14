@@ -7,6 +7,8 @@ body {
 }
 
 .button-primary {
+    margin: auto;
+    display: flex;
     padding: 8px 16px;
     border: none;
     color: #FEFBFF;
@@ -17,12 +19,12 @@ body {
 }
 
 .button-primary:hover {
-    background: var(--ternary-gradient);
+    background: linear-gradient(to right, #E6A4F8, #469AE3);
     transition: all 0.5s;
 }
 
 .button-primary:active {
-    background: var(--secondary-gradient);
+    background: linear-gradient(to right, #469AE3, #9DA1F7);
     transition: all 0.5s;
 }
 
@@ -31,4 +33,10 @@ body {
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     border-bottom-left-radius: 60px;
+}
+.logo {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: min(50px, 3%);
+    height: 60px;
 }
